@@ -1,0 +1,18 @@
+{
+    "fonts.fontSize": "12px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "jwolfe.file-tree-exclude.list": [
+        "node_modules",
+        "bower_components",
+        ".git",
+        "dist",
+        "vendor"
+    ],
+    "dimitrk.exclude-indexing-filetree.excludeList": [
+        ".git(?!ignore)",
+        "dist",
+        "bower_components",
+        "node_modules"
+    ],
+    "debug.showErrorsInStatusBar": true
+}
