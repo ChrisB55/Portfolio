@@ -4,7 +4,13 @@
     margin: 0 auto;
     max-width: 100%;
     width: 100%;
-    background-color: ivory;
+      background-color: red;
+  background-image:
+    linear-gradient(
+      to right,
+      cyan,
+      #BFEFFF 34%
+    );
     border-bottom: solid;
     border-bottom-color: #7d97ad;
 }
@@ -47,7 +53,7 @@ img {
 }
 
 h2 {
-    margin-left: 35px;     
+    margin-left: 35px;
 }
 
 .section-projects {
@@ -67,7 +73,7 @@ h2 {
 }
 
 .col-6-right-footer {
-      float: right ;  
+      float: right ;
 }
 
 @media (min-width:550px) {
@@ -76,40 +82,40 @@ img {
     max-width: 100%;
     margin: auto;
     width: 100%;
-}  
-    
+}
+
 .section-projects {
     padding-left: 50px;
     width: 100%;
     max-width: 100%;
     display: flex;
-    margin:5px    
-}  
-    
+    margin:5px
+}
+
 .col-4-projects {
     width: 33.33%;
     margin-right:15px;
     }
-    
+
 .col-6-right {
     width: 50%;
     text-align: right;
     font-family: fantasy;
     text-align: center;
     font-size: 100%;
-    
+
 @media (min-width:1150px) {
 
 img {
     max-width: 100%;
     margin: auto;
 }
-    
+
 .col-6-right {
     width: 50%;
     text-align: right;
     font-family: fantasy;
     text-align: center;
     font-size: 100%;
-        
+
 }
