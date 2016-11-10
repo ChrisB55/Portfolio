@@ -1,27 +1,36 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0;
     max-width: 100%;
     width: 100%;
-      background-color: red;
-  background-image:
-    linear-gradient(
-      to right,
-      cyan,
-      #BFEFFF 34%
-    );
+    background-color: lightgray;
     border-bottom: solid;
     border-bottom-color: #7d97ad;
 }
 
+.full {
+    width: 100%;
+
+}
 .row-header {
     width: 100%;
     border-bottom: solid;
     border-bottom-color: #7d97ad;
     display: flex;
+    background-color: red;
+  background-image:
+    linear-gradient(
+      to right,
+      #18C2BD,
+      #56A5C3 34%
+    );
+    border-bottom: solid;
+    border-bottom-color: #7d97ad;
 }
-
+.navbar navbar-light bg-faded {
+    background-color: lightgray;
+}
 .col-6 {
     width: 50%;
 }
@@ -29,14 +38,14 @@ body {
 .col-6-right {
     width: 50%;
     text-align: right;
-    font-family: fantasy;
+    font-family: sans-serif;
     text-align: center;
     font-size: 75%;
 }
 
 .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
+      min-width: 99%; /* Set width to 100% */
+      margin: 0;
       min-height:200px;
 
   }
@@ -56,12 +65,6 @@ img {
     border-radius: 50%;
 }
 
-.row-main-image {
-    width: 100%;
-    margin: 20px 0 20px 0;
-    max-width: 33%;
-    min-width: 100%;
-}
 
 h2 {
     margin-left: 35px;
@@ -73,7 +76,7 @@ h2 {
     width:100%;
 }
 
-.col-4-projects {
+.col-md-4 portfolio-item {
     width: 33.33%;
     width: 100%;
     height:100%;
@@ -116,7 +119,7 @@ img {
 .col-6-right {
     width: 50%;
     text-align: right;
-    font-family: fantasy;
+    font-family: PT Sans;
     text-align: center;
     font-size: 100%;
 
@@ -130,7 +133,7 @@ img {
 .col-6-right {
     width: 50%;
     text-align: right;
-    font-family: fantasy;
+    font-family: PT Sans;
     text-align: center;
     font-size: 100%;
 
