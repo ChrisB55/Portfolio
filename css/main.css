@@ -4,7 +4,7 @@ body {
     margin: 0;
     max-width: 100%;
     width: 100%;
-    background-color: lightgray;
+    background-color: #F0FFFF;
     border-bottom: solid;
     border-bottom-color: #7d97ad;
 }
@@ -28,9 +28,7 @@ body {
     border-bottom: solid;
     border-bottom-color: #7d97ad;
 }
-.navbar navbar-light bg-faded {
-    background-color: lightgray;
-}
+
 .col-6 {
     width: 50%;
 }
@@ -84,8 +82,14 @@ h2 {
 }
 
 .row-footer {
-    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:center;
     width: 100%;
+    border: solid;
+    border-radius: 5px;
+    border-color: #7d97ad;
+    border-width: 1px;
+
 }
 
 .col-6-right-footer {
