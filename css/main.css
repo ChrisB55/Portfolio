@@ -1,32 +1,25 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0 auto;
     max-width: 100%;
     width: 100%;
-    background-color: #F0FFFF;
+      background-color: red;
+  background-image:
+    linear-gradient(
+      to right,
+      cyan,
+      #BFEFFF 34%
+    );
     border-bottom: solid;
     border-bottom-color: #7d97ad;
 }
 
-.full {
-    width: 100%;
-
-}
 .row-header {
     width: 100%;
     border-bottom: solid;
     border-bottom-color: #7d97ad;
     display: flex;
-    background-color: red;
-  background-image:
-    linear-gradient(
-      to right,
-      #18C2BD,
-      #56A5C3 34%
-    );
-    border-bottom: solid;
-    border-bottom-color: #7d97ad;
 }
 
 .col-6 {
@@ -36,14 +29,14 @@ body {
 .col-6-right {
     width: 50%;
     text-align: right;
-    font-family: sans-serif;
+    font-family: fantasy;
     text-align: center;
     font-size: 75%;
 }
 
 .carousel-inner img {
-      min-width: 99%; /* Set width to 100% */
-      margin: 0;
+      width: 100%; /* Set width to 100% */
+      margin: auto;
       min-height:200px;
 
   }
@@ -63,6 +56,12 @@ img {
     border-radius: 50%;
 }
 
+.row-main-image {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    max-width: 33%;
+    min-width: 100%;
+}
 
 h2 {
     margin-left: 35px;
@@ -72,9 +71,30 @@ h2 {
     max-width: 100%;
     text-align: center;
     width:100%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
 
-.col-md-4 portfolio-item {
+.section-projects :hover {
+    margin-top: -0.2em;
+    transform: scale(1.02);
+}
+
+.section-project img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    filter: brightness(90%);
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.section-projects img: hover {
+    filter: brightness(110%);
+}
+
+.col-4-projects {
     width: 33.33%;
     width: 100%;
     height:100%;
@@ -82,14 +102,8 @@ h2 {
 }
 
 .row-footer {
-    margin-bottom: 10px;
-    text-align:center;
+    margin-top: 10px;
     width: 100%;
-    border: solid;
-    border-radius: 5px;
-    border-color: #7d97ad;
-    border-width: 1px;
-
 }
 
 .col-6-right-footer {
@@ -123,7 +137,7 @@ img {
 .col-6-right {
     width: 50%;
     text-align: right;
-    font-family: PT Sans;
+    font-family: fantasy;
     text-align: center;
     font-size: 100%;
 
@@ -137,7 +151,7 @@ img {
 .col-6-right {
     width: 50%;
     text-align: right;
-    font-family: PT Sans;
+    font-family: fantasy;
     text-align: center;
     font-size: 100%;
 
