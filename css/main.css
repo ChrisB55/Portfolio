@@ -4,7 +4,6 @@ body {
     margin: 0 auto;
     max-width: 100%;
     width: 100%;
-    background-color: red;
     background-image: linear-gradient( to right, cyan, #BFEFFF 34%);
     border-bottom: solid;
     border-bottom-color: #7d97ad;
