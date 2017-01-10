@@ -7,6 +7,7 @@ body {
     background-color: #FDFDFD;
     border-bottom: solid;
     border-bottom-color: #7d97ad;
+    font-family: PT Sans;
 
 }
 
@@ -16,7 +17,7 @@ body {
     border-bottom: solid;
     border-bottom-color: #7d97ad;
     display: flex;
-    font-family: fantasy;
+    font-family: PT Sans;
 }
 /* header */
 header .header-top{
@@ -37,7 +38,6 @@ header .header-menu .menu-area nav.menu ul.menu-item li.menu-list{
 	position:relative
 }
 header .header-menu .menu-area nav.menu ul.menu-item li.menu-list a.item-list{
-	font-family:fantasy;
 	font-size:16px;
 	padding-right:35px;
 	font-weight: 700;
@@ -73,7 +73,7 @@ header .header-menu .menu-area nav.menu ul.menu-item li.menu-list ul li{
 }
 header .header-menu .menu-area nav.menu ul.menu-item li.menu-list ul li a{
 	font-size:15px;
-	font-family: fantasy;
+	font-family: PT Sans;
 	background: ;
 	display: inline-block;
 	padding: 10px 0;
@@ -114,7 +114,7 @@ header .header-menu .menu-area nav.menu ul.menu-item li.menu-list .mega-menu spa
 }
 header .header-menu .menu-area nav.menu ul.menu-item li.menu-list .mega-menu span a{
 	display: block;
-	font-family: fantasy;
+	font-family: PT Sans;
 	font-weight: 400;
 	font-size:15px;
 	color:#999;
@@ -254,7 +254,7 @@ h2 {
     .col-6-right {
         width: 50%;
         text-align: right;
-        font-family: fantasy;
+        font-family: PT Sans;
         text-align: center;
         font-size: 100%;
         @media (min-width: 1150px) {
@@ -265,7 +265,7 @@ h2 {
             .col-6-right {
                 width: 50%;
                 text-align: right;
-                font-family: fantasy;
+                font-family: PT Sans;
                 text-align: center;
                 font-size: 100%;
             }
