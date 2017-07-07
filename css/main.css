@@ -183,9 +183,13 @@ h2 {
     border-radius: 4px;
     border: 1px solid gray;
     background-color: #F2F8FA;
+    
+}
+.col-4-projects:hover {
+    opacity: .9;
+    transform: scale(1.01);
+}
 
-}
-}
 .col-4-projects img {
     opacity: 1;
     transition: opacity .25s ease-in-out;
@@ -194,6 +198,7 @@ h2 {
 }
 .col-4-projects img:hover {
     opacity: .8;
+    
 }
 
 .row-skills {
